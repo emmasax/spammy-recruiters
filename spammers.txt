@@ -7,6 +7,7 @@
 @consolpartners.com OR 
 @creationrecruitment.co.uk OR 
 @danielmarkslondon.com OR 
+@digitalgurus.co.uk OR
 @direct-recruitment.co.uk OR 
 @e-recruiter.co.uk OR 
 @esynergy-solutions.co.uk OR 
@@ -40,12 +41,11 @@
 @spring.com OR 
 @syntaxconsultancy.com OR 
 @rethink-recruitment.com OR 
+@rightfutures.com OR
 @tmsilver.com OR 
 @trentpearce.co.uk OR 
 @ulocate.eu OR 
 @venngroup.com OR 
 @verticalit.co.uk OR 
 @xactplacements.co.uk OR 
-@xcedesolutions.com OR
-@rightfutures.com OR
-@digitalgurus.co.uk
+@xcedesolutions.com
