@@ -1,10 +1,6 @@
 from spamsub import db
 from sqlalchemy.ext.declarative import declared_attr
-from sqlalchemy.ext.associationproxy import association_proxy
-from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import func
-
-Base = declarative_base()
 
 
 class SpamsubMixin(object):
@@ -32,3 +28,18 @@ class Address(db.Model, SpamsubMixin):
 
     def __init__(self, address):
         self.address = address
+
+
+class Counter(db.Model, SpamsubMixin):
+    """
+    Counter table
+    """
+    count = db.Column(db.Integer(), nullable=False, unique=True)
+    timestamp = db.Column(
+        db.TIMESTAMP,
+        nullable=False,
+        default=func.now())
+
+    def __init__(self, count):
+        assert count >= 0
+        self.count = count
